@@ -7,7 +7,6 @@ services:
       - redeUbuntu
     ports:
       - 27017:27017
-    
   appdb:
     image: appdb:1.1
     container_name: app
